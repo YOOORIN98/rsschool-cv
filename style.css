@@ -1,0 +1,239 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+
+body{
+    font-family: 'inter';
+    font-size: normal;
+    font-size: 16px;
+    font-weight: normal;
+    color: #2D2D2D;
+    background-color: #E1D4C9;
+}
+
+.wrapper-full {
+    width: 1440px;
+    margin: 0 auto;
+}
+.header {
+    max-width: 1440px;
+    max-height: 724px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+}
+.header-logo {
+    width: 100px;
+    height: 60px;
+}
+.header-menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.header-nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-nav-ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+}
+.header-nav-ul a {
+    color: #2D2D2D;
+    text-decoration: none;
+}
+
+.header-button-menu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.header-button-menu p {
+    margin-right: 8px;
+}
+
+.accent{
+    color: #B0907A;
+    font-style: italic;
+
+}
+.hero {
+    background-image: url(/srs/img/img-hero.jpg);
+    width: 1360px;
+    height: 644px;
+    border-radius: 40px;
+    margin: 0px 40px 0px 40px;
+    position: relative;
+    background-size: cover;
+}
+.hero-offer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 100px 730px 100px 100px;
+    position: absolute;
+}
+.hero-h1 {
+    line-height: 75,6px;
+    display: inline;
+}
+.hero-h1 h1{
+    color: #E1D4C9;
+    height: 228px;
+    width: 530px;
+    font-size: 72px;
+    margin-bottom: 40px;
+}
+.hero-text p{
+    color: #E1D4C9;
+    width: 530px;
+    height: 72px;
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 24px;
+    box-sizing: 0px;
+    text-align: justify;
+}
+
+.hero-button {
+    position: relative;
+}
+.hero-menu-button {
+    width: 200px;
+    height: 64px;
+    border-radius: 100px;
+    position: relative;
+    border-style: none;
+    background-color: #E1D4C9;
+}
+.button-menu-text {
+    width: 44px;
+    height: 24px;
+    position: absolute;
+    z-index: 1;
+    top: 22px;
+    left: 78px;
+}
+
+
+/*header end/*
+
+/*main-slider start*/
+
+
+/*main-slider end*/
+
+.main {
+    max-width: 1440px;
+    max-height: 724px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.slider {
+    padding-top: 44px;
+}
+.container-favorite-coffee {
+    margin-bottom: 100px;
+}
+.fav-coffee-text {
+    margin-bottom: 40px;
+}
+.fav-coffe-h2 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 75px;
+}
+.slider-fav-coffee {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.button-vector-fav-coffee {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: #E1D4C9;
+    border-color: #2D2D2D;
+    border-width: 1px;
+}
+
+.vector {
+    background-image: url(/srs/icons/Vector.png);
+    width: 12.5px;
+    height: 12px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: flex;
+    position: absolute;
+    top: 24px;
+    left: 24px;
+}
+
+.button-icon-fav-coffee {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
