@@ -1,1 +1,2 @@
-https://yooorin98.github.io/rsschool-cv/cv
+
+https://GITHUB-yooorin98.github.io/rsschool-cv/
